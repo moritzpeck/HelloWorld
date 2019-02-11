@@ -5,9 +5,8 @@ public class schleife03 {
 	public static void main(String[] args) {
 		// while
 		int zahl1 = 120;
-		int zahl2 = 0;
-		while (zahl1 % zahl2 != 0) {
-			zahl1 = zahl1 - 1;
+		int zahl2 = zahl1;
+		
 			while (zahl1 > 0) {
 				if ((zahl2 % zahl1) == 0)
 					
@@ -18,4 +17,4 @@ public class schleife03 {
 		}
 
 	}
-}
+
