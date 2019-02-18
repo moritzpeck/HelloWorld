@@ -9,7 +9,7 @@ public class Bubblesort {
 		for (int i = 0; i < zahlen.length; i++) {
 			System.out.println(zahlen[i]);
 		}
-
+System.out.println("// // //");
 		for (int n = zahlen.length; n > 1; --n) {
 			for (int i = 0; i < n - 1; ++i) {
 				if (zahlen[i] > zahlen[i + 1]) {
