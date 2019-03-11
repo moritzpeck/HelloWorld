@@ -5,6 +5,9 @@ public class Quicksort {
 		static int[] zahlen = { 9, 2, 5, 1, 7, 10, 6, 4, 3 };
 
 		public static void main(String[] args) {
+			for (int i=0;i < zahlen.length; i++) 
+			//System.out.println("das ist eine unsortierte Zahl " );
+			System.out.println(zahlen[i]+",");
 			// ausgabe der unsortieren zahlen
 			// sortieren mit quicksort
 			// ausgabe der sortieren zahlen
@@ -38,7 +41,9 @@ public class Quicksort {
 			} while (i < j);
 			//
 			if (zahlen[i] > pivot) {
-	          //tausche daten[i] mit pivot
+				int tausche = zahlen[i];
+			zahlen[i] = zahlen[i + 1];
+			zahlen[i + 1] = tausche;
 			}
 			//
 			return i;
